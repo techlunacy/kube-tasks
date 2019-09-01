@@ -1,8 +1,8 @@
-[![Release](https://img.shields.io/github/release/nuvo/kube-tasks.svg)](https://github.com/nuvo/kube-tasks/releases)
-[![Travis branch](https://img.shields.io/travis/nuvo/kube-tasks/master.svg)](https://travis-ci.org/nuvo/kube-tasks)
-[![Docker Pulls](https://img.shields.io/docker/pulls/nuvo/kube-tasks.svg)](https://hub.docker.com/r/nuvo/kube-tasks/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/nuvo/kube-tasks)](https://goreportcard.com/report/github.com/nuvo/kube-tasks)
-[![license](https://img.shields.io/github/license/nuvo/kube-tasks.svg)](https://github.com/nuvo/kube-tasks/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/release/maorfr/kube-tasks.svg)](https://github.com/maorfr/kube-tasks/releases)
+[![Travis branch](https://img.shields.io/travis/maorfr/kube-tasks/master.svg)](https://travis-ci.org/maorfr/kube-tasks)
+[![Docker Pulls](https://img.shields.io/docker/pulls/maorfr/kube-tasks.svg)](https://hub.docker.com/r/maorfr/kube-tasks/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/maorfr/kube-tasks)](https://goreportcard.com/report/github.com/maorfr/kube-tasks)
+[![license](https://img.shields.io/github/license/maorfr/kube-tasks.svg)](https://github.com/maorfr/kube-tasks/blob/master/LICENSE)
 
 # Kube tasks
 
@@ -32,7 +32,7 @@ Flags:
 
 Example: Backup Jenkins
 ```
-kube-tasks simple-backup -n default -l release=jenkins -c jenkins --path /var/jenkins_home --dst s3://nuvo-jenkins-data
+kube-tasks simple-backup -n default -l release=jenkins -c jenkins --path /var/jenkins_home --dst s3://maorfr-jenkins-data
 ```
 
 ### Wait for Pods
